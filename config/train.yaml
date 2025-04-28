@@ -1,0 +1,7 @@
+data:
+  batch_size: 64
+  train_ratio: 0.7
+  valid_ratio: 0.6
+train:
+  epochs: 9
+  lr: 0.01
