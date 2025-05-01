@@ -1,14 +1,17 @@
-import kagglehub
-from torchvision import datasets,transforms
+from torchvision import datasets
+from torchvision.transforms import v2
 from torch.utils.data import DataLoader, random_split
+import torch
 
 def get_transform():
-    transform = transforms.Compose([
-        transforms.ToTensor(),
-            transforms.Resize((224, 224)),
-        transforms.RandomAffine(degrees=10, translate=(0.1, 0.1), scale=(0.9, 1.1)),
+    transform = v2.Compose([
+        v2.ToImage(),
+        v2.Resize((224, 224)),
+        v2.RandomHorizontalFlip(p=0.5),
+        v2.RandomAffine(degrees=15, translate=(0.1, 0.1), scale=(0.9, 1.1)),
+        v2.ToDtype(torch.float32, scale=True),
+        v2.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])
-
     return transform
 
 def get_dataset(cfg, transform):
