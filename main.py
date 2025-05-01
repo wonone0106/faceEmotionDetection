@@ -3,7 +3,7 @@ from omegaconf import OmegaConf
 from torch.utils.tensorboard import SummaryWriter
 import torch.optim as optim
 from dataloader import get_transform, get_dataloader, get_dataset
-from model import CNN, EmotionMobileNet
+from model import CNN
 import logging
 import torch.nn as nn
 from trainer import train, evaluate

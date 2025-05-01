@@ -5,8 +5,7 @@ from torchvision import models
 class CNN(nn.Module):
     def __init__(self):
         super(CNN, self).__init__()
-        self.fc = nn.Linear(1024, 7)
-        self.baseResNet = models.resnet152(weights=None)
+        self.baseResNet = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
         self.baseResNet.fc = nn.Sequential(
             nn.Linear(self.baseResNet.fc.in_features, 128),
             nn.ReLU(),
