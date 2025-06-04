@@ -15,19 +15,20 @@ def get_transform():
     return transform
 
 def get_dataset(cfg, transform):
-    path = r"C:\Users\User\PycharmProjects\PythonProject\data\Validation"
+    train_path = r"C:\Users\User\PycharmProjects\PythonProject\data\cropped_training_filtered"
+    test_path = r"C:\Users\User\PycharmProjects\PythonProject\data\Validation_filtered"
 
-    train_dataset = datasets.ImageFolder(path, transform=transform)
+    train_dataset = datasets.ImageFolder(train_path, transform=transform)
     train_dataset, valid_dataset = random_split(train_dataset, (int(len(train_dataset) * cfg.data.train_ratio), len(train_dataset) - int(len(train_dataset) * cfg.data.train_ratio)))
-    valid_dataset, test_dataset = random_split(valid_dataset, (int(len(valid_dataset) * cfg.data.valid_ratio),len(valid_dataset) - int(len(valid_dataset) * cfg.data.valid_ratio)))
+    test_dataset = datasets.ImageFolder(test_path, transform=transform)
 
     return train_dataset, valid_dataset, test_dataset
 
 def get_dataloader(cfg, train_dataset, valid_dataset, test_dataset):
 
-    train_loader = DataLoader(train_dataset, batch_size=cfg.data.batch_size, shuffle=True)
-    valid_loader = DataLoader(valid_dataset, batch_size=cfg.data.batch_size, shuffle=True)
-    test_loader = DataLoader(test_dataset, batch_size=cfg.data.batch_size, shuffle=False)
+    train_loader = DataLoader(train_dataset, batch_size=cfg.data.batch_size, shuffle=True, num_workers=cfg.data.num_workers)
+    valid_loader = DataLoader(valid_dataset, batch_size=cfg.data.batch_size, shuffle=True, num_workers=cfg.data.num_workers)
+    test_loader = DataLoader(test_dataset, batch_size=cfg.data.batch_size, shuffle=False, num_workers=cfg.data.num_workers)
 
     return train_loader, valid_loader, test_loader
 
