@@ -1,13 +1,13 @@
 import hydra
 from omegaconf import OmegaConf
-from torch.utils.tensorboard import SummaryWriter
 import torch.optim as optim
 from dataloader import get_transform, get_dataloader, get_dataset
-from model import CNN
+from model import EmotionMobileNet
 import logging
 import torch.nn as nn
 from trainer import train, evaluate
 import torch
+import os
 
 @hydra.main(version_base=None, config_path="./config", config_name="train.yaml")
 def main(cfg):
@@ -24,14 +24,23 @@ def main(cfg):
     train_loader, valid_loader, test_loader = get_dataloader(cfg, train_dataset, valid_dataset, test_dataset)
     logging.info(f"train_loader: {len(train_loader)}, valid_loader: {len(valid_loader)}, test_loader: {len(test_loader)}")
 
-    model = CNN()
+    model = EmotionMobileNet().to(device)
 
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=cfg.train.lr)
-    writer = SummaryWriter()
+    epoch = 0
 
-    train(model, train_loader, valid_loader, criterion, optimizer, cfg.train.epochs, writer, device)
-    evaluate(model, test_loader, writer, device)
+    if os.path.exists("checkpoint.pth"):
+        checkpoint = torch.load("checkpoint.pth")
+        logging.info(f"Loading checkpoint successfully")
+        model.load_state_dict(checkpoint['model_state_dict'])
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        epoch = checkpoint['epoch']
+        loss = checkpoint['loss']
+        logging.info(f"Resuming training from epoch {epoch+1} with loss {loss:.4f}")
+
+    train(model, train_loader, valid_loader, criterion, optimizer, epoch, cfg.train.epochs, device)
+    evaluate(model, test_loader, device)
 
 if __name__ == "__main__":
     main()
