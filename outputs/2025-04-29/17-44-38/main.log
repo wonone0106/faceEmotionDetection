@@ -1,0 +1,13 @@
+[2025-04-29 17:44:38,226][root][INFO] - Using device: cuda
+[2025-04-29 17:44:38,359][root][INFO] - train_dataset: 36291, valid_dataset: 9332, test_dataset: 6222
+[2025-04-29 17:44:38,359][root][INFO] - train_loader: 568, valid_loader: 146, test_loader: 98
+[2025-04-29 17:54:28,301][root][INFO] - Epoch [1/20], Train_Loss: 1.9650, Val_Accuracy: 14.7878
+[2025-04-29 18:04:11,026][root][INFO] - Epoch [2/20], Train_Loss: 1.9466, Val_Accuracy: 13.5662
+[2025-04-29 18:13:54,140][root][INFO] - Epoch [3/20], Train_Loss: 1.9472, Val_Accuracy: 15.0450
+[2025-04-29 18:23:34,488][root][INFO] - Epoch [4/20], Train_Loss: 1.9464, Val_Accuracy: 13.5662
+[2025-04-29 18:33:16,123][root][INFO] - Epoch [5/20], Train_Loss: 1.9468, Val_Accuracy: 13.5662
+[2025-04-29 18:43:04,199][root][INFO] - Epoch [6/20], Train_Loss: 1.9467, Val_Accuracy: 13.5662
+[2025-04-29 18:52:50,503][root][INFO] - Epoch [7/20], Train_Loss: 1.9466, Val_Accuracy: 13.5662
+[2025-04-29 19:02:38,788][root][INFO] - Epoch [8/20], Train_Loss: 1.9466, Val_Accuracy: 13.5662
+[2025-04-29 19:12:26,712][root][INFO] - Epoch [9/20], Train_Loss: 1.9468, Val_Accuracy: 14.1877
+[2025-04-29 19:22:13,165][root][INFO] - Epoch [10/20], Train_Loss: 1.9466, Val_Accuracy: 14.1877

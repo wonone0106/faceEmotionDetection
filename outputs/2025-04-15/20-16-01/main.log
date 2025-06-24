@@ -1,0 +1,7 @@
+[2025-04-15 20:16:01,501][root][INFO] - Using device: cuda
+[2025-04-15 20:16:01,636][root][INFO] - train_dataset: 36291, valid_dataset: 9332, test_dataset: 6222
+[2025-04-15 20:16:01,637][root][INFO] - train_loader: 568, valid_loader: 146, test_loader: 98
+[2025-04-15 20:25:22,093][root][INFO] - Epoch [1/3], Avg_Loss: 1.9294, Val_Accuracy: 17.0167
+[2025-04-15 20:34:50,254][root][INFO] - Epoch [2/3], Avg_Loss: 1.6681, Val_Accuracy: 30.8723
+[2025-04-15 20:43:50,928][root][INFO] - Epoch [3/3], Avg_Loss: 1.4872, Val_Accuracy: 44.2456
+[2025-04-15 20:43:50,936][root][INFO] - Best model weights saved with accuracy: 44.25

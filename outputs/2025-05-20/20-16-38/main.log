@@ -1,0 +1,26 @@
+[2025-05-20 20:16:38,389][root][INFO] - Using device: cuda
+[2025-05-20 20:16:38,728][root][INFO] - train_dataset: 79702, valid_dataset: 34158, test_dataset: 14036
+[2025-05-20 20:16:38,728][root][INFO] - train_loader: 1246, valid_loader: 534, test_loader: 220
+[2025-05-20 20:20:50,448][root][INFO] - Epoch [1/50], Train_Loss: 1.0980, Val_Accuracy: 61.9738
+[2025-05-20 20:24:46,607][root][INFO] - Epoch [2/50], Train_Loss: 0.9342, Val_Accuracy: 65.7240
+[2025-05-20 20:28:37,666][root][INFO] - Epoch [3/50], Train_Loss: 0.8788, Val_Accuracy: 68.7072
+[2025-05-20 20:32:26,788][root][INFO] - Epoch [4/50], Train_Loss: 0.8443, Val_Accuracy: 68.8623
+[2025-05-20 20:36:16,584][root][INFO] - Epoch [5/50], Train_Loss: 0.8137, Val_Accuracy: 69.5913
+[2025-05-20 20:40:36,717][root][INFO] - Epoch [6/50], Train_Loss: 0.7832, Val_Accuracy: 70.1066
+[2025-05-20 20:45:39,101][root][INFO] - Epoch [7/50], Train_Loss: 0.7587, Val_Accuracy: 70.3496
+[2025-05-20 20:50:47,785][root][INFO] - Epoch [8/50], Train_Loss: 0.7364, Val_Accuracy: 71.8250
+[2025-05-20 20:55:02,804][root][INFO] - Epoch [9/50], Train_Loss: 0.7188, Val_Accuracy: 72.0915
+[2025-05-20 20:58:53,934][root][INFO] - Epoch [10/50], Train_Loss: 0.6965, Val_Accuracy: 72.8731
+[2025-05-20 21:02:44,522][root][INFO] - Epoch [11/50], Train_Loss: 0.6760, Val_Accuracy: 72.9961
+[2025-05-20 21:06:36,161][root][INFO] - Epoch [12/50], Train_Loss: 0.6606, Val_Accuracy: 73.5816
+[2025-05-20 21:10:27,359][root][INFO] - Epoch [13/50], Train_Loss: 0.6434, Val_Accuracy: 74.2374
+[2025-05-20 21:14:17,959][root][INFO] - Epoch [14/50], Train_Loss: 0.6265, Val_Accuracy: 74.7233
+[2025-05-20 21:18:09,353][root][INFO] - Epoch [15/50], Train_Loss: 0.6128, Val_Accuracy: 74.7087
+[2025-05-20 21:22:01,183][root][INFO] - Epoch [16/50], Train_Loss: 0.5992, Val_Accuracy: 75.2445
+[2025-05-20 21:25:52,954][root][INFO] - Epoch [17/50], Train_Loss: 0.5859, Val_Accuracy: 75.3030
+[2025-05-20 21:29:43,854][root][INFO] - Epoch [18/50], Train_Loss: 0.5740, Val_Accuracy: 75.2210
+[2025-05-20 21:33:34,664][root][INFO] - Epoch [19/50], Train_Loss: 0.5593, Val_Accuracy: 75.8417
+[2025-05-20 21:37:25,482][root][INFO] - Epoch [20/50], Train_Loss: 0.5471, Val_Accuracy: 75.3938
+[2025-05-20 21:41:16,456][root][INFO] - Epoch [21/50], Train_Loss: 0.5349, Val_Accuracy: 76.1842
+[2025-05-20 21:45:06,088][root][INFO] - Epoch [22/50], Train_Loss: 0.5253, Val_Accuracy: 75.4962
+[2025-05-20 21:48:56,266][root][INFO] - Epoch [23/50], Train_Loss: 0.5129, Val_Accuracy: 76.4740

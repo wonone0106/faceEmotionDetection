@@ -1,0 +1,5 @@
+[2025-05-15 20:09:16,619][root][INFO] - Using device: cuda
+[2025-05-15 20:09:17,718][root][INFO] - train_dataset: 291524, valid_dataset: 124940, test_dataset: 51458
+[2025-05-15 20:09:17,719][root][INFO] - train_loader: 4556, valid_loader: 1953, test_loader: 805
+[2025-05-15 20:22:28,356][root][INFO] - Epoch [1/50], Train_Loss: 1.1431, Val_Accuracy: 59.2797
+[2025-05-15 20:40:23,393][root][INFO] - Epoch [2/50], Train_Loss: 1.0315, Val_Accuracy: 62.0946

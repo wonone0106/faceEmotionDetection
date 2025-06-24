@@ -1,0 +1,8 @@
+[2025-05-14 17:27:48,848][root][INFO] - Using device: cuda
+[2025-05-14 17:27:51,953][root][INFO] - train_dataset: 291524, valid_dataset: 124940, test_dataset: 51672
+[2025-05-14 17:27:51,953][root][INFO] - train_loader: 4556, valid_loader: 1953, test_loader: 808
+[2025-05-14 17:27:53,262][root][INFO] - Loading checkpoint successfully
+[2025-05-14 17:27:53,268][root][INFO] - Resuming training from epoch 22 with loss 0.5804
+[2025-05-14 18:45:38,250][root][INFO] - Epoch [22/50], Train_Loss: 0.6179, Val_Accuracy: 76.4895
+[2025-05-14 20:08:15,894][root][INFO] - Epoch [23/50], Train_Loss: 0.5994, Val_Accuracy: 76.1518
+[2025-05-14 21:31:42,806][root][INFO] - Epoch [24/50], Train_Loss: 0.5864, Val_Accuracy: 75.8060

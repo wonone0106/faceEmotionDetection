@@ -1,0 +1,20 @@
+[2025-03-27 19:16:41,783][root][INFO] - Using device: cuda
+[2025-03-27 19:16:42,213][root][INFO] - train_dataset: 22967, valid_dataset: 5742, test_dataset: 7178
+[2025-03-27 19:16:42,213][root][INFO] - train_loader: 359, valid_loader: 90, test_loader: 113
+[2025-03-27 19:16:59,015][root][INFO] - Epoch [0/16], Loss: 1.8187, Accuracy: 25.4789
+[2025-03-27 19:17:10,186][root][INFO] - Epoch [1/16], Loss: 1.8045, Accuracy: 25.9317
+[2025-03-27 19:17:20,306][root][INFO] - Epoch [2/16], Loss: 1.7981, Accuracy: 26.0188
+[2025-03-27 19:17:34,600][root][INFO] - Epoch [3/16], Loss: 1.7885, Accuracy: 25.2699
+[2025-03-27 19:17:47,723][root][INFO] - Epoch [4/16], Loss: 1.7778, Accuracy: 26.8373
+[2025-03-27 19:18:00,764][root][INFO] - Epoch [5/16], Loss: 1.7682, Accuracy: 26.7677
+[2025-03-27 19:18:13,806][root][INFO] - Epoch [6/16], Loss: 1.7617, Accuracy: 27.5165
+[2025-03-27 19:18:26,880][root][INFO] - Epoch [7/16], Loss: 1.7551, Accuracy: 26.4542
+[2025-03-27 19:18:40,515][root][INFO] - Epoch [8/16], Loss: 1.7469, Accuracy: 26.4716
+[2025-03-27 19:18:54,029][root][INFO] - Epoch [9/16], Loss: 1.7398, Accuracy: 27.6907
+[2025-03-27 19:19:07,064][root][INFO] - Epoch [10/16], Loss: 1.7334, Accuracy: 28.9272
+[2025-03-27 19:19:20,162][root][INFO] - Epoch [11/16], Loss: 1.7277, Accuracy: 29.1362
+[2025-03-27 19:19:33,400][root][INFO] - Epoch [12/16], Loss: 1.7199, Accuracy: 29.9025
+[2025-03-27 19:19:46,495][root][INFO] - Epoch [13/16], Loss: 1.7135, Accuracy: 31.4873
+[2025-03-27 19:19:59,551][root][INFO] - Epoch [14/16], Loss: 1.7066, Accuracy: 30.6513
+[2025-03-27 19:20:12,650][root][INFO] - Epoch [15/16], Loss: 1.6966, Accuracy: 32.2362
+[2025-03-27 19:20:12,662][root][INFO] - Best model weights saved with accuracy: 32.24

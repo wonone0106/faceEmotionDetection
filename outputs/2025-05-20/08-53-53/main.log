@@ -1,0 +1,29 @@
+[2025-05-20 08:53:53,343][root][INFO] - Using device: cuda
+[2025-05-20 08:53:54,414][root][INFO] - train_dataset: 291524, valid_dataset: 124940, test_dataset: 50849
+[2025-05-20 08:53:54,415][root][INFO] - train_loader: 4556, valid_loader: 1953, test_loader: 795
+[2025-05-20 08:53:54,709][root][INFO] - Loading checkpoint successfully
+[2025-05-20 08:53:54,726][root][INFO] - Resuming training from epoch 29 with loss 0.6557
+[2025-05-20 09:07:36,973][root][INFO] - Epoch [29/50], Train_Loss: 0.6743, Val_Accuracy: 74.5334
+[2025-05-20 09:21:25,935][root][INFO] - Epoch [30/50], Train_Loss: 0.6648, Val_Accuracy: 74.3853
+[2025-05-20 09:34:32,873][root][INFO] - Epoch [31/50], Train_Loss: 0.6554, Val_Accuracy: 74.6006
+[2025-05-20 09:47:36,492][root][INFO] - Epoch [32/50], Train_Loss: 0.6466, Val_Accuracy: 74.4085
+[2025-05-20 10:00:35,334][root][INFO] - Epoch [33/50], Train_Loss: 0.6386, Val_Accuracy: 74.0187
+[2025-05-20 10:13:29,575][root][INFO] - Epoch [34/50], Train_Loss: 0.6335, Val_Accuracy: 74.6686
+[2025-05-20 10:26:23,380][root][INFO] - Epoch [35/50], Train_Loss: 0.6276, Val_Accuracy: 74.1412
+[2025-05-20 10:39:15,813][root][INFO] - Epoch [36/50], Train_Loss: 0.6213, Val_Accuracy: 73.9883
+[2025-05-20 10:53:43,901][root][INFO] - Epoch [37/50], Train_Loss: 0.6153, Val_Accuracy: 74.3029
+[2025-05-20 11:06:39,572][root][INFO] - Epoch [38/50], Train_Loss: 0.6080, Val_Accuracy: 74.4798
+[2025-05-20 11:19:38,261][root][INFO] - Epoch [39/50], Train_Loss: 0.6030, Val_Accuracy: 74.2516
+[2025-05-20 11:32:39,136][root][INFO] - Epoch [40/50], Train_Loss: 0.5982, Val_Accuracy: 73.9379
+[2025-05-20 11:45:34,219][root][INFO] - Epoch [41/50], Train_Loss: 0.5925, Val_Accuracy: 74.1292
+[2025-05-20 11:58:31,877][root][INFO] - Epoch [42/50], Train_Loss: 0.5872, Val_Accuracy: 74.5334
+[2025-05-20 12:11:36,324][root][INFO] - Epoch [43/50], Train_Loss: 0.5830, Val_Accuracy: 74.4950
+[2025-05-20 12:25:01,717][root][INFO] - Epoch [44/50], Train_Loss: 0.5785, Val_Accuracy: 74.3133
+[2025-05-20 12:38:20,290][root][INFO] - Epoch [45/50], Train_Loss: 0.5739, Val_Accuracy: 74.4117
+[2025-05-20 12:51:26,733][root][INFO] - Epoch [46/50], Train_Loss: 0.5700, Val_Accuracy: 74.3797
+[2025-05-20 13:04:28,636][root][INFO] - Epoch [47/50], Train_Loss: 0.5643, Val_Accuracy: 74.3933
+[2025-05-20 13:17:27,086][root][INFO] - Epoch [48/50], Train_Loss: 0.5597, Val_Accuracy: 74.2284
+[2025-05-20 13:30:26,501][root][INFO] - Epoch [49/50], Train_Loss: 0.5556, Val_Accuracy: 74.3373
+[2025-05-20 13:43:35,208][root][INFO] - Epoch [50/50], Train_Loss: 0.5520, Val_Accuracy: 74.5582
+[2025-05-20 13:43:35,276][root][INFO] - Best model weights saved with accuracy: 74.67
+[2025-05-20 13:45:26,606][root][INFO] - Test Accuracy: 74.37

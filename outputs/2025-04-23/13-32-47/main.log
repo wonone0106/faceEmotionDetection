@@ -1,0 +1,17 @@
+[2025-04-23 13:32:47,443][root][INFO] - Using device: cuda
+[2025-04-23 13:32:47,581][root][INFO] - train_dataset: 36291, valid_dataset: 9332, test_dataset: 6222
+[2025-04-23 13:32:47,581][root][INFO] - train_loader: 568, valid_loader: 146, test_loader: 98
+[2025-04-23 14:00:25,831][root][INFO] - Epoch [1/50], Train_Loss: 1.9505, Val_Accuracy: 14.9057
+[2025-04-23 14:35:22,037][root][INFO] - Epoch [2/50], Train_Loss: 1.9464, Val_Accuracy: 14.5306
+[2025-04-23 15:10:13,874][root][INFO] - Epoch [3/50], Train_Loss: 1.9463, Val_Accuracy: 14.0270
+[2025-04-23 15:45:04,755][root][INFO] - Epoch [4/50], Train_Loss: 1.9461, Val_Accuracy: 15.1200
+[2025-04-23 16:20:15,007][root][INFO] - Epoch [5/50], Train_Loss: 1.9319, Val_Accuracy: 15.0236
+[2025-04-23 16:55:26,150][root][INFO] - Epoch [6/50], Train_Loss: 1.7847, Val_Accuracy: 27.2825
+[2025-04-23 17:30:56,878][root][INFO] - Epoch [7/50], Train_Loss: 1.6739, Val_Accuracy: 31.1830
+[2025-04-23 18:06:03,766][root][INFO] - Epoch [8/50], Train_Loss: 1.6026, Val_Accuracy: 31.8796
+[2025-04-23 18:41:19,348][root][INFO] - Epoch [9/50], Train_Loss: 1.5413, Val_Accuracy: 35.4586
+[2025-04-23 19:16:23,093][root][INFO] - Epoch [10/50], Train_Loss: 1.4826, Val_Accuracy: 39.5414
+[2025-04-23 19:51:21,476][root][INFO] - Epoch [11/50], Train_Loss: 1.4390, Val_Accuracy: 39.9164
+[2025-04-23 20:26:12,473][root][INFO] - Epoch [12/50], Train_Loss: 1.3795, Val_Accuracy: 42.7775
+[2025-04-23 21:01:01,978][root][INFO] - Epoch [13/50], Train_Loss: 1.3040, Val_Accuracy: 46.2280
+[2025-04-23 21:36:06,413][root][INFO] - Epoch [14/50], Train_Loss: 1.2666, Val_Accuracy: 45.4565
